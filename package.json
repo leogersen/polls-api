@@ -24,7 +24,7 @@
   },
   "dependencies": {},
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch",
     "test:staged": "jest --passWithNoTests",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
